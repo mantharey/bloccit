@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -16,6 +16,7 @@ end
 
 group :development, :test do
    gem 'rspec-rails', '~> 3.0'
+   gem 'shoulda'
 end
 
 # Use SCSS for stylesheets
